@@ -16,14 +16,6 @@ using namespace std;
 int main()
 {
     srand(time(NULL));
-    //initialization
-    //size
-    //conversion of datatypes
-    //conditional logic
-    //iteration
-    //cstyle strings
-    //string
-    //vectors
 
     vector<string> strVec;
     strVec.push_back("Luke");
@@ -48,10 +40,6 @@ int main()
     string multiWord = "A little bird with a yellow bill";
     camelCase(multiWord);
     cout << multiWord << endl;
-    //functions
-    //multiple file project
-    //call by value
-    //call by reference
-    cout << "Welcome to Week 10\n";
+
     return EXIT_SUCCESS;
 }
