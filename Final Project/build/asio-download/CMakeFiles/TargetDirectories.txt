@@ -1,0 +1,3 @@
+/home/jonathandeleon/CSI230/Final Project/build/asio-download/CMakeFiles/rebuild_cache.dir
+/home/jonathandeleon/CSI230/Final Project/build/asio-download/CMakeFiles/edit_cache.dir
+/home/jonathandeleon/CSI230/Final Project/build/asio-download/CMakeFiles/asio-download.dir
