@@ -1,3 +1,0 @@
-/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/CMakeFiles/rebuild_cache.dir
-/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/CMakeFiles/edit_cache.dir
-/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/CMakeFiles/websocketpp-download.dir
