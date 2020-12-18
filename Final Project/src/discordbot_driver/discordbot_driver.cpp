@@ -9,7 +9,7 @@
 * 
 */
 #include "../../include/discordbot.h"
-const std::string BOT_TOKEN = "Nzg0NTQ2NzgwNjgzMzA0OTYw.X8q4IA.RgXw6RPjIkRVvu5_yM_zkLjFiYg";
+const std::string BOT_TOKEN = "token";
 
 using namespace std;
 int main()
