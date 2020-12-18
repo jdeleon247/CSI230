@@ -7,7 +7,7 @@ project(cpr-download NONE)
 
 include(ExternalProject)
 ExternalProject_Add(cpr-download
-                    GIT_REPOSITORY;https://github.com/whoshuu/cpr.git;GIT_TAG;b748095;UPDATE_DISCONNECTED;1
+                    GIT_REPOSITORY;https://github.com/whoshuu/cpr.git;GIT_TAG;e627e47;UPDATE_DISCONNECTED;1
                     SOURCE_DIR          "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/cpr"
                     BINARY_DIR          "/home/jonathandeleon/CSI230/Final Project/build/cpr-build"
                     CONFIGURE_COMMAND   ""

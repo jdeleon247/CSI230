@@ -5,7 +5,7 @@ if(NOT "/home/jonathandeleon/CSI230/Final Project/build/cpr-download/cpr-downloa
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/cpr"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/cpr"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -32,12 +32,12 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "/usr/bin/git"  checkout b748095 --
+  COMMAND "/usr/bin/git"  checkout e627e47 --
   WORKING_DIRECTORY "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/cpr"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: 'b748095'")
+  message(FATAL_ERROR "Failed to checkout tag: 'e627e47'")
 endif()
 
 set(init_submodules TRUE)

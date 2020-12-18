@@ -5,7 +5,7 @@ if(NOT "/home/jonathandeleon/CSI230/Final Project/build/asio-download/asio-downl
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/asio"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/asio"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -32,12 +32,12 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "/usr/bin/git"  checkout 22afb86 --
+  COMMAND "/usr/bin/git"  checkout master --
   WORKING_DIRECTORY "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/asio"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '22afb86'")
+  message(FATAL_ERROR "Failed to checkout tag: 'master'")
 endif()
 
 set(init_submodules TRUE)

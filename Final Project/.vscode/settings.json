@@ -3,6 +3,10 @@
         "deque": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "atomic": "cpp"
+        "atomic": "cpp",
+        "*.ipp": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "iostream": "cpp"
     }
 }

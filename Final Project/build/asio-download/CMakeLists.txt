@@ -7,7 +7,7 @@ project(asio-download NONE)
 
 include(ExternalProject)
 ExternalProject_Add(asio-download
-                    GIT_REPOSITORY;https://github.com/chriskohlhoff/asio.git;GIT_TAG;22afb86;UPDATE_DISCONNECTED;1
+                    GIT_REPOSITORY;https://github.com/chriskohlhoff/asio.git;GIT_TAG;master;UPDATE_DISCONNECTED;1
                     SOURCE_DIR          "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/asio"
                     BINARY_DIR          "/home/jonathandeleon/CSI230/Final Project/build/asio-build"
                     CONFIGURE_COMMAND   ""

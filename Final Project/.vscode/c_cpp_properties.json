@@ -5,10 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include/**",
-                "${workspaceFolder}/include/sleepy-discord/deps/",
-                "${workspaceFolder}/include/sleepy-discord/deps/cpr",
-                "${workspaceFolder}/include/sleepy-discord/deps/cpr/include",
-                "${workspaceFolder}/include/sleepy-discord/include/sleepy_discord/IncludeNonexistent"
+                "/usr/include/linux",
+                "/usr/include/"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

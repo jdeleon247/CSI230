@@ -30,6 +30,9 @@
 		},
 		{
 			"file" : "/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test.rule"
+		},
+		{
+			"file" : "/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update.rule"
 		}
 	],
 	"target" : 

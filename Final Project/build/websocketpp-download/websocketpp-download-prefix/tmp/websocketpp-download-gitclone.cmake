@@ -5,7 +5,7 @@ if(NOT "/home/jonathandeleon/CSI230/Final Project/build/websocketpp-download/web
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/websocketpp"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/jonathandeleon/CSI230/Final Project/include/sleepy-discord/deps/websocketpp"
   RESULT_VARIABLE error_code
   )
 if(error_code)
